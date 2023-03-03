@@ -1,0 +1,41 @@
+package backend.team.backend.transversal.messages;
+
+public class Messages {
+    public static final String ERROR_USER_NOT_FOUND= "El usuario no fue encontrado en la base de datos.";
+    public static final String ERROR_OBJECT_USER_VACIO = "Los datos del usuario no pueden estar vacíos.";
+    public static final String ERROR_USER_NAME_EXISTS= "El nombre de usuario ya se encuntra registrado en la base de datos, intente con otro nombre de usuario.";
+    public static final String ERROR_ID_ROLE_INVALID= "El rol ingresado no es válido, intente de nuevo.";
+    public static final String ERROR_USER_USERNAME_NULL = "La información enviada del usuario no puede ser nula, intente de nuevo.";
+    public static final String ERROR_USER_USERNAME_EMPTY = "La información de nombre de usuario no puede estar vacía.";
+    public static final String ERROR_USER_USERNAME_LENGHT = "La longitud de nombre de usuario no puede exceder los 20 caracteres.";
+    public static final String ERROR_USER_LASTNAME_NULL = "La información del apellido es obligatoria.";
+    public static final String ERROR_USER_LASTNAME_EMPTY = "La información del apellido no puede estar vacía.";
+    public static final String ERROR_USER_LASTNAME_LENGHT ="La longitud del apellido no puede exceder los 20 caracteres.";
+    public static final String ERROR_USER_PASSWORD_NULL = "La información de la contraseña es obligatoria.";
+    public static final String ERROR_USER_PASSWORD_EMPTY = "La información de la contraseña no puede estar vacía.";
+    public static final String ERROR_USER_ID_ROLE_NULL = "La información del role es obligatoria.";
+    public static final String ERROR_USER_ID_ROLE_DOES_NOT_EXIST = "El rol ingresado no existe, intente de nuevo.";
+    public static final String ERROR_USER_FIRST_NAME_NULL = "La información del primer nombre es obligatoria";
+    public static final String ERROR_USER_FIRST_NAME_VACIO = "La información del primer nombre no puede estar vacía.";
+    public static final String ERROR_USER_FIRST_NAME_VACIO_LENGHT = "La longitud del primer nombre no puede excder los 20 caracteres.";
+    public static final String ERROR_USER_USERNAME_ALREADY_EXISTS = "El nombre de usuario ya existe, intente con otro diferente.";
+    public static final String ERROR_USER_PASSWORD_LENGHT = "La contraseña debe contener mínimo 8 caracteres.";
+    public static final String ERROR_OBJECT_SCHEDULE_VACIO = "Los datos del agendamiento no pueden estar vacios";
+    public static final String ERROR_SCHEDULE_NULL = "La información ";
+    public static final String ERROR_WAREHOUSE_ID_NULL = "El id de la bodega no puede estar vacio.";
+    public static final String ERROR_WAREHOUSE_DOES_NOT_EXIST = "La bodega ingresada no existe, intente con otra";
+    public static final String ERROR_DOES_NOT_EXIST_SCHEDULE = "No existen agendamientos en la bodega";
+    public static final String ERROR_DOES_NOT_EXIST_AN_ACTIVE_SCHEDULE = "No exsiste una agenda activa para la hora actual en la bodega.";
+    public static final String ERROR_OBJECT_AGENDA_VACIA = "Los datos de la agenda no pueden estar vacios.";
+    public static final String ERROR_SCHEDULE_TYPE_NULL = "La informacion del tipo de agendamiento es obliagtoria";
+    public static final String ERROR_SCHEDULE_TYPE_EMPTY = "La informacion del tipo de agendamiento no puede estar vacia";
+    public static final String ERROR_WAREHOUSE_NULL = "La informacion de la bodega no puede es obligatoria";
+    public static final String ERROR_SCHEDULE_DESCRIPTION_NULL = "La informacion de la descripcion es obligatoria";
+    public static final String ERROR_SCHEDULE_DESCRIPTION_EMPTY = "La informacion de la descripcion no puede estar vacia";
+    public static final String ERROR_SCHEDULE_DESCRIPTION_LENGHT = "La descripción debe contener como mínimo 3 caracteres";
+    public static final String ERROR_SCHEDULE_USER_NULL = "La informacion del usuario es obligatoria para poder agendar";
+    public static final String ERROR_SCHEDULE_USER_DOES_NOT_EXIST = "El usuario que intenga agendar no existe";
+    public static final String ERROR_SCHEDULE_DATE_NULL = "La información sobre la hora del agendamiento es obligatoria";
+    public static final String ERROR_SCHEDULE_DATE_NOT_AVAILABLE = "La hora en la que intenta agendar no está disponible, intente con otra";
+    public static final String SCHEDULE_SUCCESSFULLY_UPDATED="El agendamiento ha sido actualizado exitosamente";
+}
